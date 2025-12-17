@@ -41,7 +41,7 @@ export default function Login() {
     <View className="flex flex-col mx-4 space-y-4 mt-10" >
       <Image
         source={require("../../assets/images/login.png")}
-        style={{ width: "100%", height: 300, marginTop: 60 }}
+        style={{ width: "100%", height: 240, marginTop: 20 }}
         contentFit="contain"
         transition={200}
       />
