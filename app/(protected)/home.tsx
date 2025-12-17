@@ -70,6 +70,6 @@ export default function Home() {
 }
 const styles = StyleSheet.create({
   card: {
-    marginTop: 12,
+    marginTop: 20,
   },
 });

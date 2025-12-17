@@ -38,14 +38,16 @@ export default function Login() {
   };
 
   return (
-    <View className="flex flex-col mx-4 space-y-4 mt-10">
+    <View className="flex flex-col mx-4 space-y-4 mt-10" >
       <Image
         source={require("../../assets/images/login.png")}
-        className="w-full h-60"
+        style={{ width: "100%", height: 300, marginTop: 60 }}
+        contentFit="contain"
+        transition={200}
       />
       <Text
         className="text-xl text-center tracking-widest text-blue-900"
-        style={{ fontFamily: "Bagel" }}
+        style={{ fontFamily: "Bagel", marginBottom: 20 }}
       >
         Login
       </Text>
@@ -57,6 +59,7 @@ export default function Login() {
         placeholder="Email"
         autoCapitalize="none"
         keyboardType="email-address"
+        style={{ marginBottom: 10 }}
       />
       <TextInput
         onChangeText={setPassword}
@@ -64,6 +67,7 @@ export default function Login() {
         className="border-2 border-gray-300 rounded-md p-2 w-full"
         placeholder="Password"
         secureTextEntry
+        style={{ marginBottom: 20 }}
       />
 
       <Pressable
