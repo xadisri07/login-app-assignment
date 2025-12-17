@@ -49,7 +49,7 @@ export default function Login() {
         className="text-xl text-center tracking-widest text-blue-900"
         style={{ fontFamily: "Bagel", marginBottom: 20 }}
       >
-        Login
+        Customer Login
       </Text>
 
       <TextInput
@@ -79,7 +79,7 @@ export default function Login() {
           className="text-white text-center "
           style={{ fontFamily: "Bagel" }}
         >
-          {isLoading ? "Logging in..." : "Login"}
+          {isLoading ? "Signing in..." : "Sign in"}
         </Text>
       </Pressable>
     </View>
